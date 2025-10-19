@@ -62,7 +62,7 @@ def connect_to_arduino():
                         message = ser.readline().decode('utf-8').strip()
                         if message != '':
                             if messagessended >= 49:
-                                dmitallx.clear()
+                                #dmitallx.clear()
                                 messagessended = 1
                             else:
                                 messagessended += 1
